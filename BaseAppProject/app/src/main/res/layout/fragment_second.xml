@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_Grey_Divider">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.project.base.app.tz.customview.tabview.TabLayout
+            android:id="@+id/my_order_tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/color_White"
+            app:tabIndicatorColor="@color/color_Text1FB7B6"
+            app:tabIndicatorHeight="3dp"
+            app:tabLineOffset="8dp"
+            app:tabPaddingBottom="2dp"
+            app:tabPaddingEnd="0dp"
+            app:tabPaddingStart="0dp"
+            app:tabPaddingTop="2dp"
+            app:tabSelectedTextColor="@color/color_Text1FB7B6"
+            app:tabTextColor="@color/color_Text222222">
+
+        </com.project.base.app.tz.customview.tabview.TabLayout>
+
+        <include layout="@layout/include_line_horizontal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/color_Grey_Divider" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/my_order_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

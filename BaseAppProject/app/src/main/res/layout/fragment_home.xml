@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_Grey_Divider"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorGreenMain"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="@color/color_TextFFFFFF"
+            android:textSize="@dimen/text_18sp" />
+
+        <com.kuaitianshi.o2o.SaaS.Nurse.customview.TzOvalImageView
+            android:id="@+id/home_main_head_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/home_main_headimg" />
+
+        <ImageView
+            android:id="@+id/home_main_message_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:layout_toLeftOf="@+id/home_main_head_img"
+            android:src="@mipmap/home_main_message" />
+
+        <TextView
+            android:id="@+id/home_main_message_tv"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignTop="@+id/home_main_message_img"
+            android:layout_alignRight="@+id/home_main_message_img"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="-8dp"
+            android:background="@drawable/orange_circle_bg"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:textColor="@color/color_TextFFFFFF"
+            android:textSize="@dimen/text_10sp"
+            android:visibility="gone"
+            tools:text="1" />
+
+    </RelativeLayout>
+
+</LinearLayout>

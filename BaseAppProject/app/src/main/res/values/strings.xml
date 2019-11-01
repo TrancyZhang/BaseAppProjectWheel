@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">框架app</string>
+    <string name="login_name">登录</string>
+    <string name="login_account_name">账号</string>
+    <string name="login_account_hint">请输入手机号</string>
+    <string name="login_psd_name">密码</string>
+    <string name="login_psd_hint">请输入密码</string>
+    <string name="main_home">首页</string>
+    <string name="no_message">暂无内容</string>
+</resources>
