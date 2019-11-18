@@ -41,7 +41,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.projec.base.app.tz.R;
+import com.project.base.app.tz.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

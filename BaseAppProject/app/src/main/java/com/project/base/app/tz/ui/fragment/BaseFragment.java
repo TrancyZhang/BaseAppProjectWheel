@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.projec.base.app.tz.R;
+import com.project.base.app.tz.R;
 import com.project.base.app.tz.customview.PtrHeaderView;
 
 import butterknife.Bind;

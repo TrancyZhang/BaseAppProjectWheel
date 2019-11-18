@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.projec.base.app.tz.R;
+import com.project.base.app.tz.R;
 import com.project.base.app.tz.adapter.HeaderViewRecyclerAdapter;
 
 import butterknife.ButterKnife;

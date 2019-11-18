@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.projec.base.app.tz.R;
+import com.project.base.app.tz.R;
 import com.project.base.app.tz.events.HomeListAdapterEvent;
 
 import butterknife.ButterKnife;

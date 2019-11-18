@@ -7,4 +7,5 @@
     <string name="login_psd_hint">请输入密码</string>
     <string name="main_home">首页</string>
     <string name="no_message">暂无内容</string>
+    <string name="loadmore_retry">点击重试</string>
 </resources>

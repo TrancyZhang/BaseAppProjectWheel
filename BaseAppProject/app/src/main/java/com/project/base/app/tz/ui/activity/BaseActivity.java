@@ -17,7 +17,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.projec.base.app.tz.R;
+import com.project.base.app.tz.R;
 import com.project.base.app.tz.customview.PtrHeaderView;
 import com.yanzhenjie.permission.Action;
 import com.yanzhenjie.permission.AndPermission;

@@ -4,7 +4,7 @@ import android.util.Base64;
 import android.util.Log;
 
 import com.google.gson.GsonBuilder;
-import com.kuaitianshi.o2o.SaaS.Nurse.http.adapter.HttpBaseAdapter;
+import com.project.base.app.tz.http.adapter.HttpBaseAdapter;
 import com.project.base.app.tz.http.httpinterface.HttpInterface;
 
 import java.io.File;

@@ -8,7 +8,7 @@ import android.widget.FrameLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-import com.projec.base.app.tz.R;
+import com.project.base.app.tz.R;
 import com.project.base.app.tz.ui.fragment.HomeFragment;
 import com.project.base.app.tz.ui.fragment.SecondFragment;
 

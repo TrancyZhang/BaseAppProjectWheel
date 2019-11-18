@@ -5,7 +5,7 @@ import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.view.WindowManager;
 
-import com.projec.base.app.tz.R;
+import com.project.base.app.tz.R;
 
 
 public class SplashActivity extends BaseActivity {

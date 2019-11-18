@@ -1,13 +1,11 @@
 package com.project.base.app.tz;
 
 import android.app.Application;
-import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.provider.Settings;
 import android.text.TextUtils;
 
-import com.kuaitianshi.o2o.SaaS.Nurse.util.BaseSetting;
 
 /**
  * Created by An4 on 2019-09-20.

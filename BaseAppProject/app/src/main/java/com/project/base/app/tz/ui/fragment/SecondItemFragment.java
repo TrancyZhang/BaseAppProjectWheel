@@ -10,9 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.kuaitianshi.o2o.SaaS.Nurse.util.RecyclerViewUtil;
-import com.projec.base.app.tz.R;
+import com.project.base.app.tz.R;
 import com.project.base.app.tz.adapter.SecondListItemAdapter;
+import com.project.base.app.tz.util.RecyclerViewUtil;
 
 import java.util.ArrayList;
 

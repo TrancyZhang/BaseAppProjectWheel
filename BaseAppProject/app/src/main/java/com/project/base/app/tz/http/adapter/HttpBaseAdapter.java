@@ -1,4 +1,4 @@
-package com.kuaitianshi.o2o.SaaS.Nurse.http.adapter;
+package com.project.base.app.tz.http.adapter;
 
 import android.util.Base64;
 import android.util.Log;
@@ -100,7 +100,7 @@ public class HttpBaseAdapter<T> implements Observable.OnSubscribe<T> {
                     }).create();
                     if (baseT.getCode().equals("0100")) {
                         //0100跳转登录
-                        BaseApp.getInstance().doLoginOut();
+//                        BaseApp.getInstance().doLoginOut();
                     } else {
                         T t = gson.fromJson(responseStr, mType);
                         subscriber.onNext(t);
